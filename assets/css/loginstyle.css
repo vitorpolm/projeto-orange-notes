@@ -1,0 +1,74 @@
+/* Configurações gerais da Pagina */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Configurações Box-Login */
+
+#backgroundlogin {
+    background-image: url(../img/background2.png);
+    background-size: 100vw;
+}
+
+.box {
+    width: 30rem;
+    height: 30rem;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+.box h1 {
+    padding: 2rem;
+}
+
+.box label {
+    margin: 2rem;
+    float: left;
+    margin: 0px;
+    padding-left: 75px;
+}
+
+.box input {
+    margin: 1rem;
+    border: 1px solid #FE5517;
+    border-radius: 5px;
+    width: 20rem;
+    height: 1.5rem;
+}
+.box button {
+    color: white;
+    background-color: #FE5517;
+    padding: 0.5rem 5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.box a {
+    color: #FE885C;
+}
+
+.box button a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #fff;
+}
+
+.box button a:hover {
+    text-decoration: none;
+}
