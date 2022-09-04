@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+}
+
+.menuLateral {
+    background-color: black;
+    width: 16rem;
+    height: 100%;
+    position: fixed;
+    left: -16rem;
+}
+
+.menuLateral .titulo {
+    color: #FE5517;
+    text-align: center;
+    font-weight: bold;
+    line-height: 45px;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.menuLateral ul {
+    list-style: none;
+}
+
+.menuLateral ul li {
+    line-height: 40px;
+}
+.menuLateral ul li a {
+    color: #FE885C;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+}
+.menuLateral ul li a:hover {
+    background-color: #FE885C;
+    color: white;
+    transition: 0.5s;
+}
+
+.btnAbre{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: black;
+    color: #FE5517;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnAbre i {
+    font-size: 2rem;
+}
+
+.menuLateral.exibe{
+    left: 0;
+}
+
+.btnFecha{
+    position: relative;
+    left: 15px;
+    top: 2px;
+
+}

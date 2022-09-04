@@ -19,7 +19,7 @@ body {
 /* Configurações Box-Login */
 
 #backgroundlogin {
-    background-image: url(../img/background2.png);
+    background-image: url(https://d335luupugsy2.cloudfront.net/cms/files/107693/1655132576/$jp1dmh18t9g), linear-gradient(to bottom, rgba(74,144,226,0) 0%, rgba(74,144,226,0) 100%);
     background-size: 100vw;
 }
 
@@ -30,7 +30,6 @@ body {
     border-radius: 10px;
     text-align: center;
     padding: 10px;
-    opacity: 0.9;
 }
 
 .box h1 {
