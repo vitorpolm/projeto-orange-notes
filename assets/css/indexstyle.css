@@ -3,13 +3,19 @@
     font-family: 'Montserrat', sans-serif;
     padding: 0px;
 }
+#background{
+    background-image: url(https://d335luupugsy2.cloudfront.net/cms/files/107693/1655132576/$jp1dmh18t9g), linear-gradient(to bottom, rgba(74,144,226,0) 0%, rgba(74,144,226,0) 100%);
+    background-size: 100vw;
+}
 
+/* CONFIGURAÇÕES MENU LATERAL*/
 .menuLateral {
     background-color: black;
     width: 16rem;
     height: 100%;
     position: fixed;
     left: -16rem;
+    transition: left 0.5s;
 }
 
 .menuLateral .titulo {
@@ -40,6 +46,7 @@
     transition: 0.5s;
 }
 
+/* CONFIGURAÇÕES ICONS */
 .btnAbre{
     position: absolute;
     top: 15px;
@@ -63,5 +70,182 @@
     position: relative;
     left: 15px;
     top: 2px;
+    cursor: pointer;
+}
+.btnFecha:hover{
+    color: #fff;
+}
 
+/* CONFIGURAÇÕES FEED */
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    border: 5px solid #FE5517;
+    width: 100rem;
+    height: 15rem;
+    background: #F8F8FF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 5rem;
+}
+
+.box2{
+    border: 5px solid #FE5517;
+    width: 100rem;
+    height: 50rem;
+    background: #F8F8FF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* PERSONALIZAÇÕES FEED */
+
+.box1 h1{
+    text-align: left;
+    margin-bottom: 15px;
+    padding: 15px 0px 0px 20px ;
+}
+.box1 h3{
+    text-align: left;
+    padding: 15px 0px 0px 20px ;
+}
+.frase{
+    padding: 20px 0px 0px 50px;
+    width: 50rem;
+}
+.box2 h1{
+    text-align: left;
+    padding: 15px 0px 0px 20px ;
+}
+
+.card{
+    background: #F8F8FF;
+    width: 1300px;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+    padding: 0;
+    align-items: center;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    transition: all 0.3s ease-out;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.imgFeed{
+    width: 200px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.imgFeed i{
+    font-size: 5rem;
+    color: #cd4f15;
+
+}
+.contentFeed{
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+.btnContinue{
+    width: 300px;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.card button{
+    color: white;
+    background-color: #FE5517;
+    padding: 0.5rem 5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* PERSONALIZAÇÕES TRILHAS */
+
+.box2-trilhas{
+    border: 5px solid #FE5517;
+    width: 100rem;
+    height: 50rem;
+    background: #F8F8FF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.box2-trilhas{
+    text-align: left;
+    padding: 15px 0px 0px 20px;
+}
+
+.box2-trilhas h2{
+    text-align: left;
+    padding: 15px 0px 0px 20px;
+    margin-bottom: 48px;
+}
+
+.cardTrilhas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardt{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+}
+
+.cardt:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cardt p{
+    color: #FE885C;
+    font-size: 12px;
+}
+
+.image{
+    float: right;
+    max-width: 64px;
+    max-width: 64px;
+}
+
+#add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 64px;
+    max-width: 64px;
+    margin-left: 130px;
+    margin-top: 25px;
+}
+#cardAdd{
+    width: 320px;
+    height: 120px;
 }

@@ -15,13 +15,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-/* Configurações Box-Login */
-
-#backgroundlogin {
+#background {
     background-image: url(https://d335luupugsy2.cloudfront.net/cms/files/107693/1655132576/$jp1dmh18t9g), linear-gradient(to bottom, rgba(74,144,226,0) 0%, rgba(74,144,226,0) 100%);
     background-size: 100vw;
 }
+
+/* Configurações Box-Login */
 
 .box {
     width: 30rem;
