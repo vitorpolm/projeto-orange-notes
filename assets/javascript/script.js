@@ -10,6 +10,7 @@ $('.btnFecha').click(function(){
 
 
 /* VALIDAÇÃO PARA LOGIN */
+
 function Login(event) {
     event.preventDefault();
     var usuario = document.getElementsByName('email')[0].value;
@@ -18,7 +19,7 @@ function Login(event) {
     senha = senha.toLowerCase();
   
     if (usuario == "orangenotes@orange.com" && senha == "orangenotes") {
-      window.location = "index.html";
+      window.location = "index2.html";
     }else{
       alert("Dados incorretos, tente novamente");
     }
