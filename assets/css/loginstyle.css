@@ -55,6 +55,7 @@ body {
     padding: 0.5rem 5rem;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .box a {
